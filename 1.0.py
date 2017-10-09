@@ -6,7 +6,7 @@ len_count=len(classmate)
 print len_count
 class_cnt=classmate[-1]
 print class_cnt
-class_append=classmate.append('e');
+class_append=classmate.append('e')
 print classmate
 class_insert=classmate.insert(0,'abc')
 print classmate
@@ -28,3 +28,4 @@ while n>0:
     n=n-2
 print sum
 print n
+
