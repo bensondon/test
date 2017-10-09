@@ -1,0 +1,20 @@
+from collections import Iterable
+print isinstance('0116',Iterable)
+d = {'a': 1, 'b': 2, 'c': 3}
+for a in d:
+    print a
+for a in d.itervalues():
+    print a
+for ch in 'ABC':
+    print ch
+
+for i,value in enumerate(['a','b','c']):
+    print i,value
+for x,y in [(1,2),(2,3),(6,6)]:
+    print x,y
+
+
+
+newL = [  s for s in [0116] ]
+
+print newL

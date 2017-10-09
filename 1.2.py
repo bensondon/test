@@ -1,7 +1,3 @@
-L = []
-n = 1
-while n <= 99:
-    L.append(n)
-    n = n + 2
+L = range(100)
 print L
-
+print L[1:10]
