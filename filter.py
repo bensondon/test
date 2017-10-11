@@ -13,10 +13,10 @@ def prime_num(x):
     while i <= math.sqrt(x):
         r = x % i
         if r == 0:
-            return 1
+            return True
         else:
             i = i + 1
     else:
-        return 0
+        return False
 
 print filter(prime_num, range(1,101))
